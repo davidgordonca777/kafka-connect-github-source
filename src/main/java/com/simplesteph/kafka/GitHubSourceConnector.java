@@ -7,11 +7,11 @@ import java.util.Map;
 import org.apache.kafka.common.config.ConfigDef;
 import org.apache.kafka.connect.connector.Task;
 import org.apache.kafka.connect.source.SourceConnector;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+// import org.slf4j.Logger;
+// import org.slf4j.LoggerFactory;
 
 public class GitHubSourceConnector extends SourceConnector {
-    private static Logger log = LoggerFactory.getLogger(GitHubSourceConnector.class);
+    // private static Logger log = LoggerFactory.getLogger(GitHubSourceConnector.class);
     private GitHubSourceConnectorConfig config;
 
     @Override

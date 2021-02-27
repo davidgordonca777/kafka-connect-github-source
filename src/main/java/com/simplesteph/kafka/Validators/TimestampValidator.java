@@ -4,7 +4,7 @@ import org.apache.kafka.common.config.ConfigDef;
 import org.apache.kafka.common.config.ConfigException;
 
 import java.time.Instant;
-import java.time.OffsetDateTime;
+// import java.time.OffsetDateTime;
 import java.time.format.DateTimeParseException;
 
 public class TimestampValidator implements ConfigDef.Validator {
